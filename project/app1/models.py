@@ -10,4 +10,12 @@ class Product(models.Model):
 
 
 
+# python manage.py shell
+# p = Product(name='p1', price = 3.55, in_stock = True)
+# p.save()
+
+# an save+create
+# Product.objects.create(name='p1', price = 3.55, in_stock = True)
+
+# Product.objects.all() -- default manager 
 
